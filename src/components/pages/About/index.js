@@ -2,11 +2,10 @@ import React from "react";
 import './style.css';
 
 
-const Home = () => (
-  <header className="container">
+const About = () => (
+  <header className="container bg">
     <div className="avatar">
       <a href="/">
-        {/* <!--108X108 image of myself  --> */}
         <img src="../../images/darryl.png" alt="" />
       </a>
     </div>
@@ -30,4 +29,4 @@ const Home = () => (
   </header>
 );
 
-export default Home;
+export default About;

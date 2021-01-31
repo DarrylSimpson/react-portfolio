@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 // Props are passed through our functional component.
 function NavTabs(props) {
-  const tabs = ['Home', 'Portfolio', 'Resume', 'Contact'];
+  const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact'];
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-center bgImg">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a
