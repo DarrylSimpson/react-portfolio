@@ -1,0 +1,87 @@
+:root {
+  --primary: #EDD2C4;
+  --secondary: #5E887C;
+  --tertiary: #AA4924;
+  --white: whitesmoke;
+  --dark: #13231F;
+  --accent: #44c29c;
+  --horizon: #C7D5D2;
+}
+
+.user-c {
+  flex: 1;
+  margin: 35px;
+  min-width: 250px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+  background: var(--secondary);
+  color: var(--white);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.user-c .img-ctnt {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  border-radius: 5px 5px 0px 0px;
+  background: var(--accent);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.user-c .img-ctnt ::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: .5s linear;
+  overflow: auto;
+}
+
+
+.user-c .img-ctnt h4 {
+  position: relative;
+  z-index: 1;
+  top: 200px;
+  left: 20px;
+  transition-duration: .6s;
+  transition-delay: .2s;
+  transition-timing-function: ease-in-out;
+  background-color: var(--white);
+  opacity: 0.8;
+  color: var(--tertiary);
+  padding: 5px 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.user-c:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.user-c:hover .img-ctnt h3, .user-c:hover .img-ctnt h4 {
+  transform: translateY(-200px);
+}
+
+
+#portImg {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+
+#portTitle {
+  margin-top: 0;
+}
+
+#portContainer {
+  padding-top: 25px;
+}

@@ -8,7 +8,7 @@ function NavTabs(props) {
     <ul className="nav nav-tabs justify-content-center" id="topNav">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
-          <a activeClassName="active"
+          <a
             href={'#' + tab.toLowerCase()}
             // Whenever a tab is clicked on,
             // the current page is set through the handlePageChange props.

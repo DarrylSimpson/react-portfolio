@@ -1,31 +1,25 @@
 import React from 'react';
-import './style.css';
+import './projectsStyle.css';
+
+
 
 // Props are passed through our functional component.
 function ProjectCard(props) {
+
+  const { name, image, link, url } = props; 
+
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Link:</strong> {props.link}
-          </li>
-          <li>
-            <strong>Location:</strong> {props.location}
-          </li>
-        </ul>
-      </div>
-      {/* The onClick method will invoke the removeFriends function passing through the value of props.id  */}
-      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span> */}
-    </div>
+
+      <article className="user-c card">
+        <div className="img-ctnt">
+         <img id="portImg" alt={name} src={image} />
+          <div id="contentCard" className="content">
+            <h4>{name}</h4>
+            <a href={url} target="_blank"><h4>{link}</h4></a>
+          </div>
+        </div>
+      </article>
+
   );
 }
 

@@ -11,9 +11,9 @@ function Portfolio() {
 
   return (
     <Wrapper>
-      <div className="container">
+      <div id="portContainer" className="container">
         <div className="row">
-      <h1 className="title">Projects</h1>
+      <h1 id="portTitle" className="title">Past Work</h1>
         </div>
       <div className="row">
       {projectsList.map(project => (
@@ -22,13 +22,15 @@ function Portfolio() {
           key={project.id}
           name={project.name}
           image={project.image}
+          url={project.url}
           link={project.link}
-          location={project.location}
+          // location={project.location}
         />
       ))}
       </div>
       </div>
     </Wrapper>
+
   );
 }
 
