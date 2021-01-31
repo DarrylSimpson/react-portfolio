@@ -3,7 +3,11 @@ ul {
     position: sticky;
     top: 0;
     background-image: url('../../bgImage/background-image.png');
-	/* background-size: cover; */
     background-attachment: fixed;
+    background-size: cover;
     z-index: 9999;
+}
+
+#topNav {
+    border-bottom: 0px;
 }

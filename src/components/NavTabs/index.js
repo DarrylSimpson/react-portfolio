@@ -5,10 +5,10 @@ import './style.css';
 function NavTabs(props) {
   const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact'];
   return (
-    <ul className="nav nav-tabs justify-content-center bgImg">
+    <ul className="nav nav-tabs justify-content-center" id="topNav">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
-          <a
+          <a activeClassName="active"
             href={'#' + tab.toLowerCase()}
             // Whenever a tab is clicked on,
             // the current page is set through the handlePageChange props.
