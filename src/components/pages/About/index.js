@@ -1,12 +1,13 @@
 import React from "react";
 import '../About/aboutStyle.css';
+import avatar from '../../../bgImage/darryl.png';
 
 
 const About = () => (
   <header className="container bg">
     <div className="avatar">
       <a href="/">
-        <img src="../../images/darryl.png" alt="" />
+        <img src={avatar} alt="" />
       </a>
     </div>
     <div className="content">

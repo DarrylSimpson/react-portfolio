@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "How To Dot Help",
-    "image": "../images/HTH.png",
+    "image": "../../bgImage/HTH.png",
     "url": "https://how-to-dot-help.herokuapp.com/",
     "link": "Visit Page!"
   },
   {
     "id": 2,
     "name": "Budget Tracker",
-    "image": "../images/budgetTracker.png",
+    "image": "../../images/budgetTracker.png",
     "url": "https://budget-tracker-darryls.herokuapp.com/",
     "link": "Visit Page!"
   },

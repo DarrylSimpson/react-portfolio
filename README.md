@@ -21,7 +21,7 @@
   ![ScreenShot1of1](src/bgImage/image01.png)
   
 
-  [LIVE PORTFOLIO](https://www.google.com/)
+  ## <a href="https://darrylsimpson.github.io/react-portfolio/" target="_blank">LIVE POARTFOLIO</a>
 
       
   ## License
