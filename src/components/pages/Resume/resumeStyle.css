@@ -1,0 +1,30 @@
+* {
+    color: white;
+    font-family: 'Abril Fatface, cursive';
+    font-weight: bold;
+}
+
+#resumeHeader {
+    text-align: center;
+}
+
+#resumeDownload {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#resumeList {
+    display: flex;
+    text-align: center;
+}
+
+.proficiencies {
+    font-size: 18px;
+    text-align: center;
+    list-style-type: circle;
+}
+
+.row {
+    padding: 0;
+}

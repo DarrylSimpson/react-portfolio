@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs/index';
 import About from './pages/About/index';
 import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import Resume from './pages/Resume/index';
 import Contact from './pages/Contact/index';
 
 function PortfolioNav() {
