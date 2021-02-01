@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b1bc5964.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3defc219.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3defc219.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7686de59.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7686de59.js.map",
+    "static/js/2.b39fbb9a.chunk.js": "/react-portfolio/static/js/2.b39fbb9a.chunk.js",
+    "static/js/2.b39fbb9a.chunk.js.map": "/react-portfolio/static/js/2.b39fbb9a.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.b1bc5964.chunk.css.map": "/react-portfolio/static/css/main.b1bc5964.chunk.css.map",
+    "static/js/2.b39fbb9a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b39fbb9a.chunk.js.LICENSE.txt",
+    "static/media/DarrylSimpsonResumeDraft.ba1f849b.pdf": "/react-portfolio/static/media/DarrylSimpsonResumeDraft.ba1f849b.pdf",
+    "static/media/aboutStyle.css": "/react-portfolio/static/media/background-image.172ba2f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7686de59.js",
+    "static/js/2.b39fbb9a.chunk.js",
+    "static/css/main.b1bc5964.chunk.css",
+    "static/js/main.3defc219.chunk.js"
+  ]
+}
