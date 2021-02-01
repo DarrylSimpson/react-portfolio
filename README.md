@@ -18,7 +18,7 @@
   
   ## Pictures
 
-  ![ScreenShot1of1](./assets/images/image01.png)
+  ![ScreenShot1of1](src/bgImage/image01.png)
   
 
   [LIVE PORTFOLIO](https://www.google.com/)
