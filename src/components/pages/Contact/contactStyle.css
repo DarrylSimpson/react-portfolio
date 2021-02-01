@@ -1,0 +1,38 @@
+#contact-form {
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#contactHeader {
+    text-align: center;
+}
+
+button {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 1px;
+    background-color: var(--secondary);
+    margin-left: 43%;
+  }
+
+  #contactText {
+    font-size: 20px;
+	font-weight: bold;
+    color: wheat;
+    display: block;
+    justify-content: center;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  #textArea{
+      width: 100%;
+      border-radius: 10px;
+  }

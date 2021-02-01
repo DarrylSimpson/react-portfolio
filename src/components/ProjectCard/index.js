@@ -1,5 +1,5 @@
 import React from 'react';
-import './projectsStyle.css';
+import '../ProjectCard/projectsStyle.css';
 
 
 
