@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "How To Dot Help",
-    "image": "../../bgImage/HTH.png",
+    "image": "../bgImage/HTH.png",
     "url": "https://how-to-dot-help.herokuapp.com/",
     "link": "Visit Page!"
   },
