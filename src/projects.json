@@ -2,42 +2,42 @@
   {
     "id": 1,
     "name": "How To Dot Help",
-    "image": "../bgImage/HTH.png",
+    "image": "images/HTH.png",
     "url": "https://how-to-dot-help.herokuapp.com/",
     "link": "Visit Page!"
   },
   {
     "id": 2,
     "name": "Budget Tracker",
-    "image": "../../images/budgetTracker.png",
+    "image": "images/budgetTracker.png",
     "url": "https://budget-tracker-darryls.herokuapp.com/",
     "link": "Visit Page!"
   },
   {
     "id": 3,
     "name": "Table Top Resource",
-    "image": "../images/tableTop.png",
+    "image": "images/tableTop.png",
     "url": "https://cgsdesign.github.io/table-top-resource/",
     "link": "Visit Page!"
   },
   {
     "id": 4,
     "name": "Run-Buddy",
-    "image": "../images/run-buddy.png",
+    "image": "images/run-buddy.png",
     "url": "https://darrylsimpson.github.io/run-buddy/",
     "link": "Visit Page!"
   },
   {
     "id": 5,
     "name": "Social Network BackEnd",
-    "image": "../images/socialNetworkBE.png",
+    "image": "images/socialNetworkBE.png",
     "url": "https://github.com/DarrylSimpson/social-network-BE",
     "link": "Visit Page!"
   },
   {
     "id": 6,
     "name": "Horiseon",
-    "image": "../images/horiseon.png",
+    "image": "images/horiseon.png",
     "url": "https://darrylsimpson.github.io/accessability-heriseon/",
     "link": "Visit Page!"
   }
