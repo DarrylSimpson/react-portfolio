@@ -1,6 +1,7 @@
 import React from "react";
 import '../Resume/resumeStyle.css';
 import resumeDownload from '../../../bgImage/DarrylSimpsonResumeDraft.pdf';
+import Footer from '../../Footer/index';
 
 const Resume = () => (
 
@@ -36,6 +37,7 @@ const Resume = () => (
     </ul>
   </div>
   </div>
+  <Footer></Footer>
   </div>
   </section>
 );

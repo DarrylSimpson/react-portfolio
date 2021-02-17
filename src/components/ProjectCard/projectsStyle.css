@@ -25,6 +25,7 @@
   display: flex;
   border-radius: 5px 5px 0px 0px;
   background: var(--accent);
+  opacity: 0.8;
   background-size: cover;
   background-position: top;
   background-attachment: fixed;

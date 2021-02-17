@@ -1,8 +1,26 @@
-#contact-form {
+/* #contact-form {
     justify-content: center;
     padding-top: 50px;
     padding-left: 30%;
     padding-right: 30%;
+} */
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin: 0 40px 80px; */
+    /* margin-top: 6%;
+    margin-left: 29%; */
+    margin: 6% auto;
+    max-width: 800px;
+    width: 80vw;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgb(35 35 35 / 16%);
+    opacity: 0.8;
+
 }
 
 #contactHeader {
@@ -19,7 +37,6 @@ button {
     cursor: pointer;
     margin: 0 1px;
     background-color: var(--secondary);
-    margin-left: 43%;
   }
 
   #contactText {

@@ -78,4 +78,20 @@ span a {
 	text-align: center;
 }
 
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: var(--dark-blue);
+	box-shadow: 0 8px 16px 0 rgba(35, 35, 35, 0.315);
+	padding: 0;
+	margin: 0;
+	text-align: center;
+  }
 
+  footer a i {
+	color: #ffffff;
+	padding: 10px;
+	margin: 0 20px;
+	font-size: 40px;
+  }

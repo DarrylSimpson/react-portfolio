@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import ProjectCard from '../ProjectCard';
 import Wrapper from '../Wrapper';
 import projects from '../../projects.json';
+import Footer from '../Footer/index';
 
 function Portfolio() {
   const [projectsList, setprojectsList] = useState(projects);
@@ -24,10 +25,10 @@ function Portfolio() {
           image={project.image}
           url={project.url}
           link={project.link}
-          // location={project.location}
         />
       ))}
       </div>
+      <Footer></Footer>
       </div>
     </Wrapper>
 

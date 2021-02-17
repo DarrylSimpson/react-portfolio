@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../../utils/helpers';
 import '../Contact/contactStyle.css';
+import Footer from '../../Footer/index';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -60,6 +61,7 @@ function ContactForm() {
         )}
         <button type="submit">Submit</button>
       </form>
+      <Footer></Footer>
     </section>
   );
 }
