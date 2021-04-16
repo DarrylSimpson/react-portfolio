@@ -1,6 +1,6 @@
 import React from "react";
 import '../Resume/resumeStyle.css';
-import resumeDownload from '../../../bgImage/DarrylSimpsonResumeDraft.pdf';
+import resumeDownload from '../../../bgImage/DarrylSimpsonResume.pdf';
 import Footer from '../../Footer/index';
 
 const Resume = () => (
@@ -8,7 +8,7 @@ const Resume = () => (
  <section> 
        <h1 id="resumeHeader">Resume</h1>
   <div className="container">
-  <a href={resumeDownload} target="_blank" ><h1 id="resumeDownload">Download my Resume here</h1></a>
+  <a href={resumeDownload} target="_blank" ><h1 id="resumeDownload" className='col-lg-6 bg-white p-3 splashF splash-container'>View my Resume</h1></a>
   <div className="row">
     <div className="col-4">
       <h1 id="resumeList">Front-End Proficiencies</h1>

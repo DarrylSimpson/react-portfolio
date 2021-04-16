@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "How To Dot Help",
+    "name": "How To Dot Help Project-2",
     "image": "images/HTH.png",
     "url": "https://how-to-dot-help.herokuapp.com/",
     "link": "Visit Page"
@@ -15,7 +15,7 @@
   },
   {
     "id": 3,
-    "name": "Table Top Resource",
+    "name": "Table Top Resource Project-1",
     "image": "images/tableTop.png",
     "url": "https://cgsdesign.github.io/table-top-resource/",
     "link": "Visit Page"
@@ -39,6 +39,13 @@
     "name": "Horiseon",
     "image": "images/horiseon.png",
     "url": "https://darrylsimpson.github.io/accessability-heriseon/",
+    "link": "Visit Page"
+  },
+  {
+    "id": 7,
+    "name": "House-It Project-3",
+    "image": "images/houseIt.png",
+    "url": "https://house-it.herokuapp.com/",
     "link": "Visit Page"
   }
 ]

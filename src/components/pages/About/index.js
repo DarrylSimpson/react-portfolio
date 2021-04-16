@@ -16,8 +16,8 @@ const About = () => (
       <p>
         {/* <!--Twitter? <span><a href="" target="_blank"><i class="fab fa-twitter-square"></i></a></span> --> */}
         <span><a href="https://github.com/DarrylSimpson" target="_blank"><i className="fab fa-github-square"></i></a></span>
-        <span><a href="https://www.linkedin.com/in/darryl-simpson-459637206/" target="_blank"><i class="fab fa-linkedin"></i></a></span>
-        <span><a href="mailto:darryl.simpson0793@gmail.com" target="_blank"><i class="fa fa-envelope-square"></i></a></span>
+        <span><a href="https://www.linkedin.com/in/darryl-simpson-459637206/" target="_blank"><i className="fab fa-linkedin"></i></a></span>
+        <span><a href="mailto:darryl.simpson0793@gmail.com" target="_blank"><i className="fa fa-envelope-square"></i></a></span>
       </p>
       <p>As a graduate of the University of Wisconsin Coding Boot Camp, 
         my primary focus is full stack web development. I am knowledgeable 

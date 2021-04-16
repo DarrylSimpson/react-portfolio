@@ -28,3 +28,20 @@
 .row {
     padding: 0;
 }
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    opacity: 0.7;
+  }
+.splash-container {
+    box-shadow: 0 8px 16px 0 rgba(35, 35, 35, 0.315);
+  }
+
+  .splashF {
+    border-radius: 15px;
+  }
+
+  .splashF h2 {
+    text-align: center;
+  }
